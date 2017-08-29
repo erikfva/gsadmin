@@ -1,0 +1,2 @@
+# gsadmin
+Administrador de GeographicServer
