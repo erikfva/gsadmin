@@ -56,36 +56,12 @@ typings/
 
 # dotenv environment variables file
 .env
-*.php
 *.bak
 *.php_
 *.map
 *.html
 
-Rubbish/
-abt/
-adodb5/
-blockUI/
-bootstrap3/
-busqueda/
-calendar/
-ckeditor/
-colorbox/
-drilldownmenu/
-frmupload.html
-jquery/
-jqueryfileupload/
-loading/
-map/
-metro/
-ol3-layerswitcher/
-ol3/
-phpcss/
-phpfont/
-phphtml/
-phpimages/
-phpjs/
-phplang/
-phpmailer5214/
-shapefiles/
-uploads/
+/*
+!/images
+!/fuente
+!/shpparser
