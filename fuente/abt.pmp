@@ -4337,7 +4337,7 @@ function Page_Unloaded() {
 		$err = CurrentPage()->getFailureMessage();
 		if ($err != "") {
 			CurrentPage()->ClearFailureMessage();
- 			echo json_encode(json_decode('{"success":"0","error":"'.$err.'"}'));
+ 			setWSR('{"success":"0","error":"'.$err.'"}');
  		}
 	 	if(@$_SESSION[CurrentPage()->PageObjName."_WSR"])
 	 		echo json_encode(@$_SESSION[CurrentPage()->PageObjName."_WSR"]); //$strJSON;
