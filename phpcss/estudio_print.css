@@ -1,0 +1,199 @@
+#t_estudio{display:none}
+.ewGrid .ewGridContent {
+	border:0;
+}
+@page {
+	margin: 0;
+} 
+body{
+	margin:0;
+	font-size:21px;
+	line-height:1.5em;
+}
+.header{             
+	width: 21cm;
+	margin-left: 500px;
+	margin-top: 50px;
+	height:130px;
+	visibility:hidden;
+}
+.title{
+	font-size:25px;
+	font-weight:bold;
+	text-align:center;
+}
+.detail{
+	margin-left: 100px;
+	margin-top: 0.3cm;
+	height:480px;
+}
+.inf-qtitle{
+
+	/*font-size:18px;*/
+	font-weight:bold;
+}
+.inf-question{
+	margin-bottom:10px;
+}
+.e291213 .inf-group:first-child + .inf-question .inf-qtitle{display:none}
+
+/* Examen Preoperatorio*/
+.e859198 .inf-answer{
+	display: block;
+	margin-left:20px;
+}
+.e859198 .inf-group:nth-child(3){margin-top:50px}
+.e859198 .inf-group:first-child + .inf-question .inf-answer{
+	display: list-item;
+}
+
+/* Orden de Laboratorio */
+.e168292 .inf-question:first-child .inf-answer{
+	display: list-item; margin-left:30px;
+}
+
+/* Medida para lentes */
+.e689676 .subquestion-option:after, .e689676 .inf-question:nth-child(even) .inf-qtitle:after{content:": ";}
+.e689676 .subquestion-option,.e689676 .inf-qtitle,.e689676 .subquestion{margin-left:20px; font-weight:bold;font-style: italic}
+.e689676 .inf-question{float:left}
+.e689676 .inf-question:nth-child(odd){clear:left;}
+.e689676 .inf-question:nth-child(even){margin-left:100px;margin-top:25px}
+.e689676 .inf-question:first-child{margin-bottom:50px}
+
+/* (Dra. Eid) */
+.inf-qtitle{clear:both;display:block}
+.multiple-opt .inf-answer,.multiple-opt-comments .inf-answer, .subquestion{
+	display: list-item; margin-left:30px;float:left;clear:left;
+}
+.answer{
+	float:left;
+}
+.e166596 .inf-answer:last-child,.e655472 .inf-answer:last-child{
+	display:block;margin-left:0px
+}
+
+/*Oftalmolaser */
+body  
+{ 
+
+	/* this affects the margin on the content before sending to printer */ 
+	margin: 0px; 
+	font-size:25px;
+line-height:1.5em;
+} 
+.header{             
+	width: 21cm;
+	margin-left: 445px;
+	margin-top: 35px;
+	height:130px;
+	visibility:initial;	
+}
+.detail{
+	margin-left: 290px;
+	margin-top: 0.5cm;
+	height:480px;
+}
+.header strong{display:none}
+.header span:nth-of-type(2),.header span:nth-of-type(1),.header br+strong+span{margin-left:230px}
+.header span:nth-of-type(1){position:absolute;top: 17.5cm;left:165px}
+
+/*********************/
+
+/* Dra. Katherine Ortiz */
+.header{ visibility: hidden; margin-top: 80px;}
+.detail{
+	margin-left: 50px;
+	margin-right: 600px;
+}
+.footer {position:absolute;top: 1000px;left:220px}
+.footer span:nth-of-type(2){margin-left:220px}
+.footer span:nth-of-type(3){margin-left:190px}
+.footer span:nth-of-type(4){display:none}
+
+/* Dr. Claudio Barrancos */
+.e584265 .inf-question:first-child .inf-qtitle, 
+.e584265 .array-multi-flexi-text .subquestion, 
+.e584265 .array-multi-flexi-text .subquestion,
+.e584265 .array-multi-flexi-text .subquestion+.subquestion-option+.answer+.subquestion-option{display:none}
+.e584265 .array-multi-flexi-text .subquestion+.subquestion-option{font-weight:bold; font-style: italic; display:list-item; clear:left; float:left}
+.e584265 .array-multi-flexi-text .subquestion+.subquestion-option+.answer{float:left;font-weight: bold;font-style: italic;}
+.e584265 .array-multi-flexi-text .subquestion+.subquestion-option+.answer+.subquestion-option+.answer{clear:left; margin-left:20px}
+.e584265 .text-long{display:table; clear:left;}
+.e584265 .text-long .inf-qtitle{margin-top:80px;}
+.header{ visibility: hidden; margin-top: 160px;}
+.detail{
+	margin-left: 280px;
+	margin-right: 600px;
+}
+.footer{margin-left:30px;margin-top: -35px}
+.footer span:nth-of-type(2){margin-left:50px}
+.footer span:nth-of-type(3){margin-left:50px}
+.footer span:nth-of-type(4){display:inline;margin-left:50px}
+.footer span:nth-of-type(5){display:none}
+.footer span:nth-of-type(6){margin-left:50px}
+
+/*TEST DE ORTOPTICA*/
+.e399798 .header{ visibility: initial; margin-top: 100px;}
+.e399798 .header strong{ display: initial;}
+.e399798 .header br+strong+span {margin-left: initial;}
+.e399798 .header span:nth-of-type(1) {position: initial; top: initial; left: initial; margin-left:initial}
+.e399798 .detail{margin: 0 0 0 150px;}
+.e399798 .T7 div>div:nth-of-type(1),.e399798 .T8 div>div:nth-of-type(1){vertical-align: initial !important;}
+.e399798 .T7,.e399798 .T8{float:left}
+.e399798 .array-multi-flexi-text .subquestion{
+	display: table-cell; margin-left:initial;float:initial;clear:initial;
+}
+.e399798 .array-multi-flexi-text .answer{float:initial}
+.e399798 .array-multi-flexi-text .subquestion-option, .e399798 .array-multi-flexi-text .subquestion{padding:3px;border:solid 2px;}
+.e399798 .array-multi-flexi-text tbody .answer{border:solid 1px;padding:3px;}
+.e399798 .inf-group{clear: left;text-decoration: underline;}
+.e399798 .text-long{ max-width:100% !important}
+.e399798 .footer{display:none;}
+@media print{
+		.e399798{width:29cm}
+		.e399798 .T16 {page-break-after: always;}
+	.e399798 .T16+h3{margin-top:100px}
+	.e399798 {font-size:large;line-height: 1.5em;}
+}
+
+/*MEDIDA PARA LENTES*/
+.e968138 .array-multi-flexi-text{float:left; clear:left}
+.e968138 .array-multi-flexi-text .subquestion{
+	display: table-cell; margin-left:initial;float:initial;clear:initial;
+}
+.e968138 .array-multi-flexi-text .answer{float:initial}
+.e968138 .array-multi-flexi-text .subquestion-option, .e968138 .array-multi-flexi-text .subquestion{padding:3px;border:solid 2px;}
+.e968138 .array-multi-flexi-text tbody .answer{border:solid 1px;padding:3px;}
+.e968138 .numeric{float:left; margin-left:50px}
+.e968138 .detail{ margin-right:inherit}
+@media print{
+  .e968138{font-size:large;line-height: 1.5em;}
+}
+
+/* INFORME OFTALMOLOGICO*/
+.e999183 .inf-qtitle{display:none}
+.e999183 .title {margin-top:10px}
+.e999183 .inf-question {margin-left:20px; max-width:670px}
+
+/* INFORME GENERICO*/
+.e274586 .inf-question:first-child{text-align: center; font-weight: bold; font-size: 120%;}
+.e274586 .inf-qtitle{display:none}
+.e274586 .title {display:none}
+.e274586 .inf-question {margin-left:20px; max-width:670px}
+
+/* Dr Soleto */
+body{ font-size:18px}
+.header{             
+	width: 21cm;
+	margin-left: 390px;
+	margin-top: 85px;
+		height:130px;
+		visibility : inherit;
+}
+.detail{
+	margin-left: 285px;
+	margin-top: 0.4cm;
+}
+.title{margin-top:15px}
+.header span:nth-of-type(1){position:inherit;top: inherit;left:inherit} /*fecha */
+.footer,.header strong{display:none}

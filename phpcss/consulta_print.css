@@ -1,0 +1,16 @@
+@page {
+	margin: 0;
+}
+
+/*body{margin: 3.5cm 1cm 1cm 4.6cm ; height:80% !important}*/
+body{margin: 1cm 1cm 1cm 2cm ; height:80% !important}
+
+/*.detail{width:8cm}*/
+.ewMessageDialog{display:none}
+.ewGrid .ewGridContent{border:none}
+[data-field]{text-align:justify}
+[data-field="foto"]{float:left; padding:0px 10px  0px 0px}
+[data-field="foto"] img{ width:150px}
+[data-field="nombres"],[data-field="hora"]{font-weight:bolder; text-transform: uppercase;}
+[class*="elh_"]{font-weight:bold;}
+[data-field="telefono"],[data-field="direccion"],.elh_telefono,.elh_direccion{font-size:80%}

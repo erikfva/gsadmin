@@ -1,0 +1,1 @@
+var legendData = {"poligono": {"": "0_0.png"}};
