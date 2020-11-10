@@ -4892,7 +4892,7 @@ function ew_ConvertToBool($value) {
 
 // Strip slashes
 function ew_StripSlashes($value) {
-	if (!get_magic_quotes_gpc()) return $value;
+	//if (!get_magic_quotes_gpc()) return $value;
 	if (is_array($value)) { 
 		return array_map('ew_StripSlashes', $value);
 	} else {

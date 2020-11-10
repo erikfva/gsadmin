@@ -65,7 +65,7 @@ if (!defined("EW_USE_MYSQLI")) {
     define('EW_USE_MYSQLI', extension_loaded("mysqli"));
 }
 // Use MySQLi
-$EW_CONN["DB"] = array("conn" => null, "id" => "DB", "type" => "POSTGRESQL", "host" => "localhost", "port" => 5432, "user" => "admderechos", "pass" => "Abt2018*", "db" => "geodatabase", "schema" => "registro_derecho", "qs" => "\"", "qe" => "\"");
+$EW_CONN["DB"] = array("conn" => null, "id" => "DB", "type" => "POSTGRESQL", "host" => "localhost", "port" => 5432, "user" => "admderechos", "pass" => "Geo2020*", "db" => "geosicob", "schema" => "registro_derecho", "qs" => "\"", "qe" => "\"");
 $EW_CONN[0] = &$EW_CONN["DB"];
 $EW_CONN["lime_hc"] = array("conn" => null, "id" => "lime_hc", "type" => "MYSQL", "host" => "localhost", "port" => 3306, "user" => "root", "pass" => "arma", "db" => "lime_hc", "qs" => "", "qe" => "", "new" => true);
 $EW_CONN[1] = &$EW_CONN["lime_hc"];
